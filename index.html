@@ -6,42 +6,53 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-   <div class="info">
-    <img  class="avatar" src="./images/shahob.jpg" width="200" alt="I'm Shahobiddin">
-    <h1>Shahobiddin Kholbekzoda</h1>
-    <p>I'm a  <strong>beginner</strong> web developer!</p>
-    <p>I love football and programming!</p>
-    <p> My favorite football club is <font color="red"><b>MANCHESTER UNITED!</b></font></p>
-</div>        
-    <hr>
-    <h2>My cosial networks:</h2> 
-    <ul type="square">
-        <li><a href="https://instagram.com" target="_blank">Instagram</a> </li>
-        <li><a href="https://mail.ru" target="_blank">Mail</a></li>
-        <li><a href="https://Facebook.com" target="_blank">Facebook</a></li>
-    </ul>
-   <hr>
-    <h2>My hobbies:</h2>
-    <ol type="I">
-        <li>Proging</li>
-        <li>Football</li>   
-    </ol>
-    <hr>
-    <h2>Work experience:</h2>
-   <h1>NO EXPERIENCE!(;</h1>
-    <hr>
-    <h2>Contact with me:</h2>
-    <form action="/">
-        <label for="name">Your name:</label><br>
-        <input type="text" id="name" placeholder="Write your name...">
-        <br>
-        <label for="email">Your Email:</label><br>
-        <input type="email" id="email" placeholder="Write your Email...">
-        <br>
-        <label for="text">Your sos:</label><br>
-        <textarea name="text" id="text" cols="15" rows="2"></textarea><br>
-        <input type="submit" value="Send...">
-    </form>
-   
+    <div class="container">
+        <div class="info">
+            <img  class="avatar" src="./images/shahob.jpg" width="200" alt="I'm Shahobiddin">
+            <div class="info-text"><h1>Shahobiddin Kholbekzoda</h1>
+                    <p>I'm a  <strong>beginner</strong> web developer!</p>
+                    <p>I love football and programming!
+                    My favorite football club is MANCHESTER UNITED!</p>      
+                    <h4>My cosial networks:</h4> 
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                        |
+                        <a href="https://Facebook.com" target="_blank">Facebook</a>
+                    
+            </div>   
+        </div>
+        
+        <div class="card bg-red">
+                <h2>My hobbies:</h2>
+                <ol type="I" class="list">
+                    <li>Proging</li>
+                    <li>Football</li>   
+                </ol>
+            </div>
+        
+            <div class="card bg-green">
+                <h2>Work experience:</h2>
+        <h1>NO EXPERIENCE!(;</h1>
+            </div>
+            
+            
+            <form action="/" class="form">
+                <h2>Contact with me</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your name:</label><br>
+                        <input type="text" id="name" placeholder="Write your name...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label><br>
+                        <input type="email" id="email" placeholder="Write your Email...">
+                    </div> 
+                </div>  
+                <div class="form-group"> 
+                    <label for="text">Your sos:</label><br>
+                    <textarea name="text" id="text" cols="15" rows="2"></textarea><br>
+                </div>
+                <input type="submit" value="Send...">    
+            </form>
+    </div>
 </body>
 </html>
